@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    /* 로우들을 떨어트리기 */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /* 떨어트리는 효과 */
+    gap:5px;
+}
+
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 떨어트리는 효과 */
+    gap:5px;
+}
+
+.board-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #d3d6ea;
+    width: 60px;
+    height: 60px;
+
+}
