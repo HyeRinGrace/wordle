@@ -25,3 +25,11 @@ main{
     height: 60px;
 
 }
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-style: normal;
+}
